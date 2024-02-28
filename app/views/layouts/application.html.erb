@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>学習</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <%= csrf_meta_tags %>
+    <%= csp_meta_tag %>
+
+    <%= stylesheet_link_tag "application", "data-turbo-track": "reload" %>
+    <%= javascript_importmap_tags %>
+  </head>
+        
+  <body>
+  <header>
+      <h1>学習</h1>
+      <div class="header-list">
+        <ul>
+        <% if user_signed_in? %>
+          <li><%= link_to "ホーム", tweets_path %></li>
+          <li><%= link_to "マイページ", user_path(current_user.id)%></li>ß
+          <li><%= link_to 'ログアウト', destroy_user_session_path, method: :delete %></li>
+          <% end %>
+        </ul>
+      </div>
+    </header>
+    <%= yield %>
+  </body>
+</html>

@@ -1,0 +1,123 @@
+/* プロフィール変更 */
+textarea{
+    width: 850px;
+    height: 80px;
+}
+
+input[type="text"]{
+    width: 120px;
+    height: 40px;
+}
+/* ログイン　*/
+.login-title{
+  text-align: center;
+  padding-bottom: 6px;
+  border-bottom: 2px solid #FF6928;
+  margin-bottom: 20px;
+  font-family: Arial;
+  font-size: 30px;
+  color: #00BB00;
+}
+
+.login-form p{
+}
+
+.login-form{
+    margin-top: 30px;
+    width: 400px;
+    margin: 30px auto;
+    padding: 20px;
+    border: 1px solid #555;
+    -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  border-radius: 6px;
+  -webkit-box-shadow: 0px 1px 10px #FF6928;
+  -moz-box-shadow: 0px 1px 10px #FF6928;
+  box-shadow: 0px 1px 10px #FF6928;
+  border: solid #FF6928 1px;
+  background: #fafafa;
+}
+
+.email, .pass{
+margin-bottom: 20px;
+font-size: 14px;
+}
+
+/* メール&パスワード記入フォーム */
+input[type="email" i],
+input[type="password" i]{
+    width: 300px;
+    padding: 4px;
+    font-size: 14px;
+}
+
+/* ログインボタン */
+.actions{
+    text-align: left;
+}
+
+input[type="submit"]{
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 16px;
+    padding-top: 10px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    text-decoration: none;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    -webkit-box-shadow: 0px 8px 6px #e3e3e3;
+    -moz-box-shadow: 0px 8px 6px #e3e3e3;
+    box-shadow: 0px 8px 6px #e3e3e3;
+    border: solid #f5fdff 4px;
+    background: -webkit-gradient(linear, 0 0, 0 100%, from(#FF6928), to(#FF6928));
+    background: -moz-linear-gradient(top, #FF6928 	#FF6928);
+}
+
+input[type="submit"]:hover{
+    background: #FF6928;
+}
+
+/* フォローフォロワー一覧 */
+table{
+  }
+  
+table tr{
+  }
+
+table td.follow-name {
+    background-size: 30px;
+  background-position: left 5px ;
+  background-repeat: no-repeat;
+  padding-left: 20px;}
+
+table td.follow-details{
+    text-align: right;
+    padding-right: 10px;
+}
+table th,table td{
+    width: 25%;
+    padding: 15px 0;
+  }
+
+.follow-container{
+    margin-top: 30px;
+}
+
+.follow-title{
+    text-align: center;
+}
+
+.container2{
+    display: column;
+}
+
+.card{
+    margin: auto;
+}
+.card-body{
+    text-align: left;
+    padding: 5px;
+}

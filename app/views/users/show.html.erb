@@ -1,0 +1,24 @@
+<%# ユーザーマイページ %>
+<%= stylesheet_link_tag 'users', :media => "all" %>
+<div class="profile">
+  <h1><%=@user.name%></h1>
+  <p>メールアドレス : <%= @user.email %></p>
+
+  <%# プロフィールメッセージ %>
+  <div class="profile-container">
+
+        <div class="profile-text">
+            <p>プロフィール : <%= @user.profile %></p>　
+        </div>
+    </div>
+
+  <% if current_user.id == @user.id %>
+    <%= link_to "編集する", edit_user_registration_path %>
+  <% end %>
+</div>
+
+<h2>ユーザーの投稿一覧</h2>
+<% @user.tweets.each do |t| %>
+  <%= t.user.name %>
+  <%= t.body %>
+<% end %>

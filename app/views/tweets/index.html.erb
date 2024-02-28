@@ -1,0 +1,13 @@
+<%= stylesheet_link_tag 'index', :media => "all" %>
+<h3>投稿一覧</h3>
+
+  <%= button_to "新規投稿", tweets_new_path,method: :get, class:"post-btn"%>
+<div class="tweets-container">
+  <% @tweets.each do |t| %>
+    <div class="tweet">
+    <h5><a href="/users/<%= t.user.id %>"> <%= t.user.name %> </a></h5>
+    <p class="time"><%= t.created_at %></p>
+      <%= t.body %>
+    </div>
+  <% end %>
+</div>

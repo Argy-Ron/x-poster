@@ -1,0 +1,18 @@
+current directory: /Users/lon/Desktop/sample/vendor/bundle/ruby/3.3.0/gems/bindex-0.8.1/ext/skiptrace
+/Users/lon/.rbenv/versions/3.3.0/bin/ruby extconf.rb
+creating Makefile
+
+current directory: /Users/lon/Desktop/sample/vendor/bundle/ruby/3.3.0/gems/bindex-0.8.1/ext/skiptrace
+make DESTDIR\= sitearchdir\=./.gem.20240219-76800-uw7ayx sitelibdir\=./.gem.20240219-76800-uw7ayx clean
+
+current directory: /Users/lon/Desktop/sample/vendor/bundle/ruby/3.3.0/gems/bindex-0.8.1/ext/skiptrace
+make DESTDIR\= sitearchdir\=./.gem.20240219-76800-uw7ayx sitelibdir\=./.gem.20240219-76800-uw7ayx
+compiling cruby.c
+linking shared-object skiptrace/internal/cruby.bundle
+
+current directory: /Users/lon/Desktop/sample/vendor/bundle/ruby/3.3.0/gems/bindex-0.8.1/ext/skiptrace
+make DESTDIR\= sitearchdir\=./.gem.20240219-76800-uw7ayx sitelibdir\=./.gem.20240219-76800-uw7ayx install
+/usr/bin/install -c -m 0755 cruby.bundle ./.gem.20240219-76800-uw7ayx/skiptrace/internal
+
+current directory: /Users/lon/Desktop/sample/vendor/bundle/ruby/3.3.0/gems/bindex-0.8.1/ext/skiptrace
+make DESTDIR\= sitearchdir\=./.gem.20240219-76800-uw7ayx sitelibdir\=./.gem.20240219-76800-uw7ayx clean

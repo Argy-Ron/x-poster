@@ -1,0 +1,140 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS (and SCSS, if configured) file within this directory, lib/assets/stylesheets, or any plugin's
+ * vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ */
+ *{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family:  "Hiragino Kaku Gothic Pro", "ヒラギノ角ゴ Pro W3", "メイリオ",
+    Meiryo, "ＭＳ Ｐゴシック", sans-serif;
+    background-color: 	#EEEEEE;
+}
+
+/* header */
+header{
+    background-color: #FF6928;
+    height: 80px;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header a{
+    color: white;
+    text-decoration: none;
+}
+header h1{
+    color: white;
+    margin-left: 20px;
+}
+
+.header-list{
+    display: flex;
+    align-items: center;
+}
+header ul{
+    display: flex;
+}
+header li{
+    list-style: none;
+    margin-right: 40px;
+}
+
+
+/* 投稿 */
+.tweets{
+    margin-bottom: 40px;
+}
+h5 a{
+    text-decoration: none;
+    margin: 0px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.tweet{
+    background-color:white;
+    width: 40%;
+    border: 1px solid #dddfe2;
+    border-radius: 3px;
+    margin:0px,12px;
+    margin-top: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 12px 12px 0;
+}
+
+.tweet-body{
+    font-size: small;
+}
+.tweets-container{
+    margin: 5px auto;
+}
+
+.right-container{
+margin-left: 5px;
+}
+.tweet-element{
+    display: flex;
+    flex-direction: row;
+    flex-grow: 1;
+    order: 1;
+    margin: 5px 10px 5px 12px;
+}
+
+button{
+    margin-right: 30px;
+    background-color: transparent;
+    border-color: transparent;
+}
+
+.element{
+    margin: 0px 15px;
+}
+
+.main-box{
+    margin: 5px 0;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #dddfe2;
+    margin: 0px 12px 0 12px;
+    padding-bottom: 5px;
+}
+.time{
+    display: flex;
+    justify-content: flex-start;
+    font-size: 10px;
+    margin-bottom: 5px;
+}
+
+
+/* footer */
+footer{
+    color: white;
+    height: 30px;
+    background-color: #000;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    position: fixed;
+    justify-content: flex-end;
+}
