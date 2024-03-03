@@ -1,34 +1,27 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+- 公開URL
 
-Things you may want to cover:
+[35.77.126.116:3000](35.77.126.116:3000)
 
-* Ruby version
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-
+![login](docs/imgs/login.png)
 
 ## システム機能
 
+- ログイン
+
+- 投稿機能
+
+- マイページ
+  
+  - プロフィール
+  - 投稿履歴の確認
+   
+
 ## 起動方法
 
-```
-
+``` bash
+bundle exec rails server -p 3000 -b 0.0.0.0
 ```
 
